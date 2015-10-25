@@ -1,0 +1,91 @@
+body {
+	margin:0;
+	color:#474747;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body > div {
+	height:100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:500;
+}
+
+p, li {
+	font-weight:300;
+}
+
+
+h1 {
+	position:relative;
+	top:50%;
+	text-align:center;
+}
+
+.parallax {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size:cover;
+}
+
+.hero {
+    background-image:url(../img/clear-sky-3.jpg);
+}
+
+.us {
+    background-image:url(../img/clear-sky-1.jpg);
+}
+
+.university {
+	background-image:url(../img/clear-sky-4.jpg)
+}
+
+.dragons-den {
+	background-image:url(../img/clear-sky-2.jpg)
+}
+
+.panel {
+    border: 15px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 65%;
+}
+
+.panel iframe {
+	border-radius:50%;
+	height:100%;
+	width:100%;
+}
+
+.panel.blue {
+    border: 15px solid #009acd;
+    color: #009acd;
+}
+
+.panel.small-circle {
+	//border-radius:50%;
+	width:450px;
+	height:450px;
+}
+
+.me .my-face {
+	text-align: center;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.me .my-face img {
+    background: #009acd;
+    border: 15px solid #474747;
+    border-radius: 50%;
+
+    padding: 15px;
+}

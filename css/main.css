@@ -26,12 +26,12 @@ h1 {
 .parallax {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     background-size:cover;
 }
 
 .hero {
-    background-image:url(../img/clear-sky-3.jpg);
+    background-image:url(../img/digital-1.jpg);
 }
 
 .us {

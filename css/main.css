@@ -16,6 +16,16 @@ p, li {
 	font-weight:300;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: all 500ms ease;
+}
+
+a:hover {
+	color: #009acd;
+}
+
 
 h1 {
 	position:relative;
@@ -37,7 +47,7 @@ background: rgba(255,255,255,0.7);
     background-image:url(../img/digital-1.jpg);
 }
 
-.us {
+.philosiphies {
     background-image:url(../img/clear-sky-1.jpg);
 }
 
@@ -81,11 +91,11 @@ background: rgba(255,255,255,0.7);
 	height:450px;
 }
 
-.me {
+.circular-row-container {
 	text-align: center;
 }
 
-.me .my-face {
+.circular-row-container .circle {
 	/*text-align: center;
 	position:relative;
 	top:50%;
@@ -94,14 +104,14 @@ background: rgba(255,255,255,0.7);
 	width: 200px;
 }
 
-.us-container {
+.circular-row {
 	text-align: center;
 	position:relative;
 	top:36%;
 	transform:translateY(-50%);
 }
 
-.me .my-face img {
+.circular-row-container .circle img {
     background: #009acd;
     border: 15px solid #474747;
     border-radius: 50%;
@@ -110,7 +120,7 @@ background: rgba(255,255,255,0.7);
 		width: 100%;
 }
 
-.me .my-face .overlay {
+.circular-row-container .circle .overlay {
 	width: 260px;
 	height: 260px;
 	position: absolute;
@@ -120,7 +130,7 @@ background: rgba(255,255,255,0.7);
 	display:none;
 }
 
-.me .my-face .overlay-inner {
+.circular-row-container .circle .overlay-inner {
 	position: absolute;
 	top: 24%;
 	color: white;

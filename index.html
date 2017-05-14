@@ -13,7 +13,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				//$('#nav').localScroll(800);
-				
+
 				//.parallax(xPosition, speedFactor, outerHeight) options:
 				//xPosition - Horizontal position of the element
 				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
@@ -24,59 +24,111 @@
 				//$('#second').parallax("50%", 0.1);
 				//$('.bg').parallax("50%", 0.4);
 				//$('#third').parallax("50%", 0.3);
+
+
+				$('.my-face-inner').hover(function() {
+				  $(this).children('div').fadeToggle()
+				})
 			})
 		</script>
 </head>
 <body>
+	<div class="nav-container">
+		<div class="logo">
+			<img src="img/et-solutions-logo-small.png" alt="">
+		</div>
+	</div>
 	<div class="hero parallax">
-		<h1>You don't need an army to conquer the world</h1>
+		<h1>Extraordinary Solutions to Complex Problems</h1>
 	</div>
 	<div class="me">
-		<div class="my-face">
-			<h2>Myself</h2>
-			<img src="img/me-2.jpg" />
+		<h2>We're Hiring</h2>
+		<div class="us-container">
+			<div class="my-face">
+				<h3>Full Stack Developer</h3>
+				<div class="my-face-inner">
+					<img src="img/question-mark.png" />
+
+					<div class="overlay">
+						<div class="overlay-inner">
+							We're looking for a well versed engineer.<br>
+							With exceptional understanding of JavaScript and backend technologies
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my-face">
+				<h3>CEO</h3>
+				<div class="my-face-inner">
+					<img src="img/me-2.jpg" />
+
+					<div class="overlay">
+					  <div class="overlay-inner">
+							I am the CEO.<br>
+							Working in the industry for more than 5 years now, as a consultant and engineer
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my-face">
+				<h3>Digital Designer</h3>
+				<div class="my-face-inner">
+					<img src="img/question-mark.png" />
+
+					<div class="overlay">
+						<div class="overlay-inner">
+							We're looking for a digital designer.<br>
+							With great concept and web design abilities
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+
+
+
 
 	<div class="us parallax">
-		<div class="panel">
-			<h2>Our Dilemmas</h2>
+		<div class="panel right">
+			<h2>Philosophies and Approach</h2>
 			<ul>
-				<li>Everyone has different requirements</li>
-				<li>No - one technology or platform can perfectly match a set of requirements</li>
-				<li>Some needs are complex and some are simple</li>
-				<li>There are many audiences on multiple devices to consider</li>
+				<li>We're great listeners, we'll build a solution just for you based on what you know</li>
+				<li>We're great advisers, we'll fill in the gaps on what you're not sure of</li>
+				<li>The final product is tailored just for you</li>
 			</ul>
 		</div>
 	</div>
 
-	<div>
-		<div class="panel blue">
-			<h2>Our Solutions</h2>
-			<ul>
-				<li>Our integration of multiple technologies provide natural power that a singular system would lack</li>
-				<li>Our combination of listening and advice means you'll get the most tailored product for what you need</li>
-				<li>Our ability to implement effectively with a lot of different systems means that you will receive an efficient and powerful solution which will work across all devices</li>
-			</ul>
-		</div>
-	</div>
+	<div class="me">
+		<h2>Clients and Case Studies</h2>
+		<div class="us-container">
+			<div class="my-face">
+				<h3>Dragons Den Education</h3>
+				<div class="my-face-inner">
+					<img src="img/dragons-den.png" />
 
-	<div class="university parallax">
-		<div class="panel">
-			<h2>University of Hertfordshire</h2>
-			<p></p>
-		</div>
-	</div>
+					<div class="overlay">
+						<div class="overlay-inner">
+							We're looking for a well versed engineer.<br>
+							With exceptional understanding of JavaScript and backend technologies
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my-face">
+				<h3>University of Hertfordshire</h3>
+				<div class="my-face-inner">
+					<img src="img/uh.png" />
 
-	<div>
-		<div class="panel blue small-circle">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9879.732725333295!2d-0.25109929193297353!3d51.75254539418965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763c60e2757d05%3A0x9c86f7ea684901f1!2sUniversity+of+Hertfordshire!5e0!3m2!1sen!2suk!4v1445812017804" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
-	</div>
-
-	<div class="dragons-den parallax">
-		<div class="panel">
-			<h2>Dragon's Den Education</h2>
+					<div class="overlay">
+						<div class="overlay-inner">
+							I am the CEO.<br>
+							Working in the industry for more than 5 years now, as a consultant and engineer
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

@@ -19,8 +19,11 @@ p, li {
 
 h1 {
 	position:relative;
-	top:50%;
-	text-align:center;
+	top:45%;
+	/*//text-align:center;*/
+	padding: 50px;
+width: 400px;
+background: rgba(255,255,255,0.7);
 }
 
 .parallax {
@@ -47,15 +50,18 @@ h1 {
 }
 
 .panel {
-    border: 15px solid #fff;
-    box-sizing: border-box;
-    color: #fff;
-    margin: 0 auto;
-    padding: 15px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 65%;
+	box-sizing: border-box;
+	padding: 15px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 65%;
+	line-height: 1.5em;
+  background: rgba(255,255,255,0.7);
+}
+
+.panel.right {
+	float: right;
 }
 
 .panel iframe {
@@ -75,10 +81,23 @@ h1 {
 	height:450px;
 }
 
-.me .my-face {
+.me {
 	text-align: center;
+}
+
+.me .my-face {
+	/*text-align: center;
 	position:relative;
 	top:50%;
+	transform:translateY(-50%);*/
+	display: inline-block;
+	width: 200px;
+}
+
+.us-container {
+	text-align: center;
+	position:relative;
+	top:36%;
 	transform:translateY(-50%);
 }
 
@@ -86,6 +105,43 @@ h1 {
     background: #009acd;
     border: 15px solid #474747;
     border-radius: 50%;
-
+		width: 200px;
     padding: 15px;
+		width: 100%;
+}
+
+.me .my-face .overlay {
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	bottom: 0;
+	border-radius: 50%;
+	display:none;
+}
+
+.me .my-face .overlay-inner {
+	position: absolute;
+	top: 24%;
+	color: white;
+	width: 165px;
+	left: 15%;
+	line-height: 1.5em;
+}
+
+.nav-container {
+	height: auto;
+  background: white;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.logo img {
+	width: 125px;
+	padding: 15px;
 }
